@@ -4,7 +4,7 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // ForcePutNewBlock puts a block into db regardless of local store check

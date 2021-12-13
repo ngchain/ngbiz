@@ -8,7 +8,7 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 var ErrTxrBalanceInsufficient = errors.New("account's balance is not sufficient for the tx")

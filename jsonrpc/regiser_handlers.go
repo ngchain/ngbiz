@@ -2,7 +2,7 @@ package jsonrpc
 
 import (
 	"github.com/c0mm4nd/go-jsonrpc2"
-	"github.com/ngchain/ngcore/consensus"
+	"github.com/ngchain/ngbiz/consensus"
 )
 
 // registerHTTPHandler will register jsonrpc functions onto the Server.

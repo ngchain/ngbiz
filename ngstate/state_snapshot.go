@@ -8,8 +8,8 @@ import (
 	"github.com/c0mm4nd/rlp"
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/ngchain/ngcore/ngblocks"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngblocks"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // var snapshot *atomic.Value

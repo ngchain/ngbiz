@@ -6,8 +6,8 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/ngblocks"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngblocks"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // GetLatestBlock will return the latest Block in DB.

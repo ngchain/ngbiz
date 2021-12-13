@@ -6,15 +6,15 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 	logging "github.com/ipfs/go-log/v2"
+	"github.com/ngchain/ngbiz/ngp2p"
 	"github.com/ngchain/secp256k1"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/blockchain"
-	"github.com/ngchain/ngcore/ngblocks"
-	"github.com/ngchain/ngcore/ngp2p"
-	"github.com/ngchain/ngcore/ngpool"
-	"github.com/ngchain/ngcore/ngstate"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/blockchain"
+	"github.com/ngchain/ngbiz/ngblocks"
+	"github.com/ngchain/ngbiz/ngpool"
+	"github.com/ngchain/ngbiz/ngstate"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 var log = logging.Logger("pow")

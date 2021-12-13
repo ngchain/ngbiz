@@ -3,7 +3,7 @@ package defaults
 import (
 	"encoding/hex"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // MaxBlocks limits the max number of blocks which are transfered on p2p network.

@@ -3,7 +3,7 @@ package ngstate
 import (
 	"github.com/c0mm4nd/wasman"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 func initAccountImports(vm *VM) error {

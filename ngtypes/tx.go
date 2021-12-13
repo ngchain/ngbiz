@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 type TxType uint8

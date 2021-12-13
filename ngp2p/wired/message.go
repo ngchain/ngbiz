@@ -6,7 +6,7 @@ import (
 
 	core "github.com/libp2p/go-libp2p-core"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 type MsgType uint8

@@ -18,8 +18,8 @@ mktarball() {
 }
 
 # Create the main tarball of binaries
-bin_pkgname=ngcore-$platform
+bin_pkgname=ngbiz-$platform
 mkdir tmp/$bin_pkgname
 
-mv ngcore-$platform/* tmp/$bin_pkgname
+mv ngbiz-$platform/* tmp/$bin_pkgname
 mktarball $bin_pkgname

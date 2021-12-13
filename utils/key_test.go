@@ -6,7 +6,7 @@ import (
 
 	"github.com/ngchain/secp256k1"
 
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 func TestPublicKey2Bytes(t *testing.T) {

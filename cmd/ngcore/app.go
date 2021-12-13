@@ -13,22 +13,22 @@ import (
 	"github.com/mr-tron/base58"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ngchain/ngcore/blockchain"
-	"github.com/ngchain/ngcore/consensus"
-	"github.com/ngchain/ngcore/jsonrpc"
-	"github.com/ngchain/ngcore/keytools"
-	"github.com/ngchain/ngcore/ngblocks"
-	"github.com/ngchain/ngcore/ngp2p"
-	"github.com/ngchain/ngcore/ngpool"
-	"github.com/ngchain/ngcore/ngstate"
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/storage"
+	"github.com/ngchain/ngbiz/blockchain"
+	"github.com/ngchain/ngbiz/consensus"
+	"github.com/ngchain/ngbiz/jsonrpc"
+	"github.com/ngchain/ngbiz/keytools"
+	"github.com/ngchain/ngbiz/ngblocks"
+	"github.com/ngchain/ngbiz/ngp2p"
+	"github.com/ngchain/ngbiz/ngpool"
+	"github.com/ngchain/ngbiz/ngstate"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/storage"
 )
 
 var nonStrictModeFlag = &cli.BoolFlag{
 	Name: "non-strict",
 	// Value: true, // local chain will be able to start from a checkpoint if false
-	Usage: "Enable forcing ngcore starts from the genesis block",
+	Usage: "Enable forcing ngbizarts from the genesis block",
 }
 
 var snapshotModeFlag = &cli.BoolFlag{
@@ -153,7 +153,7 @@ var action = func(c *cli.Context) error {
 		}()
 	}
 
-	log.Warnf("ngcore version %s", Version)
+	log.Warnf("ngbizrsion %s", Version)
 
 	key := keytools.ReadLocalKey(keyFile, strings.TrimSpace(keyPass))
 	log.Warnf("use address: %s to receive mining rewards \n", base58.FastBase58Encoding(ngtypes.NewAddress(key)))

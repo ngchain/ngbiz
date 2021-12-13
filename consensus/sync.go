@@ -5,8 +5,8 @@ import (
 
 	"github.com/libp2p/go-libp2p-core/peer"
 
-	"github.com/ngchain/ngcore/ngp2p"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/ngp2p"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 const (

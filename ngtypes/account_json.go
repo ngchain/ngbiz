@@ -3,7 +3,7 @@ package ngtypes
 import (
 	"encoding/hex"
 
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 type jsonAccount struct {

@@ -11,8 +11,8 @@ import (
 	"github.com/ngchain/secp256k1"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 type sendTxParams struct {

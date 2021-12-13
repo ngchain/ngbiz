@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"math/big"
 
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 type jsonTx struct {

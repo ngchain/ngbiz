@@ -5,7 +5,7 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 func vmTransfer(txn *badger.Txn, from, to, value uint64) error {

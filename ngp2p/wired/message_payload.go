@@ -1,6 +1,6 @@
 package wired
 
-import "github.com/ngchain/ngcore/ngtypes"
+import "github.com/ngchain/ngbiz/ngtypes"
 
 // StatusPayload is the payload used when ping pong.
 type StatusPayload struct {

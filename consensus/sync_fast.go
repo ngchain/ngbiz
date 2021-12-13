@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ngchain/ngcore/ngp2p/wired"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngp2p/wired"
+	"github.com/ngchain/ngbiz/ngtypes"
 	"github.com/pkg/errors"
 )
 

@@ -14,8 +14,8 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"go.uber.org/atomic"
 
-	"github.com/ngchain/ngcore/ngp2p/defaults"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngp2p/defaults"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 var p2pDHT *dht.IpfsDHT

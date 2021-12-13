@@ -8,9 +8,9 @@ import (
 	"github.com/libp2p/go-libp2p-core/protocol"
 	"github.com/libp2p/go-msgio"
 
-	"github.com/ngchain/ngcore/blockchain"
-	"github.com/ngchain/ngcore/ngp2p/defaults"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/blockchain"
+	"github.com/ngchain/ngbiz/ngp2p/defaults"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 var log = logging.Logger("wired")

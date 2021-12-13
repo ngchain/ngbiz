@@ -1,4 +1,4 @@
-// Package jsonrpc is the json-rpc2 module in ngcore
+// Package jsonrpc is the json-rpc2 module in ngbiz
 //
 // All commands/methods should follow these rules:
 // - All (private or public) keys are encoded with base58

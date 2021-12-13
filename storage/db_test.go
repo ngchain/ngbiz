@@ -3,8 +3,8 @@ package storage_test
 import (
 	"testing"
 
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/storage"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/storage"
 )
 
 func TestInitStorage(t *testing.T) {

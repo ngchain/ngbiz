@@ -1,4 +1,4 @@
-module github.com/ngchain/ngcore
+module github.com/ngchain/ngbiz
 
 go 1.17
 
@@ -8,7 +8,7 @@ require (
 	github.com/c0mm4nd/wasman v0.0.0-20201023051902-3f585a486d39
 	github.com/cbergoon/merkletree v0.2.0
 	github.com/deroproject/astrobwt v0.0.0-20210630035954-2a649b40b1dc
-	github.com/dgraph-io/badger/v3 v3.2011.1
+	github.com/dgraph-io/badger/v3 v3.2103.2
 	github.com/google/uuid v1.3.0
 	github.com/ipfs/go-log/v2 v2.3.0
 	github.com/json-iterator/go v1.1.11
@@ -31,7 +31,6 @@ require (
 )
 
 require (
-	github.com/DataDog/zstd v1.4.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd v0.21.0-beta // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
@@ -39,14 +38,15 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d // indirect
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
 	github.com/dchest/blake256 v1.1.0 // indirect
-	github.com/dgraph-io/ristretto v0.0.4-0.20210122082011-bb5d392ed82d // indirect
+	github.com/dgraph-io/ristretto v0.1.0 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/flynn/noise v1.0.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
-	github.com/golang/snappy v0.0.1 // indirect
-	github.com/google/flatbuffers v1.12.0 // indirect
+	github.com/golang/snappy v0.0.3 // indirect
+	github.com/google/flatbuffers v1.12.1 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
@@ -61,6 +61,7 @@ require (
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/jbenet/go-temp-err-catcher v0.1.0 // indirect
 	github.com/jbenet/goprocess v0.1.4 // indirect
+	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.4 // indirect
 	github.com/koron/go-ssdp v0.0.0-20191105050749-2e1c40ed0b5d // indirect
 	github.com/libp2p/go-addr-util v0.0.2 // indirect

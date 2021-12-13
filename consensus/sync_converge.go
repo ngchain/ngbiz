@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ngchain/ngcore/ngp2p/defaults"
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/ngp2p/defaults"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 // MustConverge detection ignites the forking in local node

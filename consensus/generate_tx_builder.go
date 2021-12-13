@@ -5,7 +5,7 @@ import (
 
 	"github.com/ngchain/secp256k1"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // createGenerateTx will create a generate Tx for new Block.

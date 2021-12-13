@@ -6,7 +6,7 @@ import (
 	"github.com/c0mm4nd/rlp"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 func (b *Broadcast) BroadcastTx(tx *ngtypes.Tx) error {

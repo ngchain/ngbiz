@@ -6,7 +6,7 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 var log = logging.Logger("storage")

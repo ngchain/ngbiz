@@ -4,7 +4,7 @@ import (
 	"github.com/c0mm4nd/rlp"
 	"github.com/libp2p/go-libp2p-core/network"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // sendChain will send peer the specific vault's sendChain, which's len is not must be full BlockCheckRound num.

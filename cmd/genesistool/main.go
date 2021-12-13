@@ -8,9 +8,9 @@ import (
 	"github.com/mr-tron/base58"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ngchain/ngcore/keytools"
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/keytools"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 var ErrGenesisKeyFileMissing = errors.New("file genesis.key is missing, try to create one first")

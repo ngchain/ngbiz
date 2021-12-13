@@ -7,9 +7,9 @@ import (
 	"github.com/c0mm4nd/go-jsonrpc2"
 	"github.com/mr-tron/base58"
 
-	"github.com/ngchain/ngcore/jsonrpc/workpool"
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/jsonrpc/workpool"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/utils"
 	"github.com/ngchain/secp256k1"
 )
 

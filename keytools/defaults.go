@@ -7,7 +7,7 @@ import (
 
 const (
 	defaultKeyFolder = ".ngkeys"
-	defaultKeyFile   = "ngcore.key" // "~/.ngkeys/ngcore.key"
+	defaultKeyFile   = "ngbiz.key" // "~/.ngkeys/ngbiz.key"
 )
 
 // GetDefaultFolder returns the default folder storing keyfile.

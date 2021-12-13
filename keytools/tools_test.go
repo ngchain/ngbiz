@@ -6,7 +6,7 @@ import (
 
 	"github.com/mr-tron/base58"
 
-	"github.com/ngchain/ngcore/keytools"
+	"github.com/ngchain/ngbiz/keytools"
 )
 
 func TestKeyMgr_ReadLocalKey(t *testing.T) {

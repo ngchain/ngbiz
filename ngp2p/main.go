@@ -12,11 +12,11 @@ import (
 	rhost "github.com/libp2p/go-libp2p/p2p/host/routed"
 	"github.com/libp2p/go-tcp-transport"
 
-	"github.com/ngchain/ngcore/blockchain"
-	"github.com/ngchain/ngcore/keytools"
-	"github.com/ngchain/ngcore/ngp2p/broadcast"
-	"github.com/ngchain/ngcore/ngp2p/wired"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/blockchain"
+	"github.com/ngchain/ngbiz/keytools"
+	"github.com/ngchain/ngbiz/ngp2p/broadcast"
+	"github.com/ngchain/ngbiz/ngp2p/wired"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 var log = logging.Logger("ngp2p")

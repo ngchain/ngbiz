@@ -7,8 +7,8 @@ import (
 	"github.com/c0mm4nd/rlp"
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 // initWithGenesis will initialize the store with genesis block & vault.

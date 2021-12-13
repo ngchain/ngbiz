@@ -4,7 +4,7 @@ import (
 	"github.com/c0mm4nd/rlp"
 	"github.com/libp2p/go-libp2p-core/network"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 func (w *Wired) sendSheet(uuid []byte, stream network.Stream, sheet *ngtypes.Sheet) bool {

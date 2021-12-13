@@ -10,7 +10,7 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	logging "github.com/ipfs/go-log/v2"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // VM is a vm based on wasmtime, which acts as a sandbox env to exec native func

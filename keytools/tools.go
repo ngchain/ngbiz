@@ -11,8 +11,8 @@ import (
 	"github.com/mr-tron/base58"
 	"github.com/ngchain/secp256k1"
 
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 // ReadLocalKey will read the local AES-256-GCM encrypted secp256k1 key file to load an ecdsa private key.
@@ -74,7 +74,7 @@ func CreateLocalKey(filename, password string) *secp256k1.PrivateKey {
 		filename = GetDefaultFile()
 	}
 
-	// save key to ngcore.key file
+	// save key to ngbizy file
 	file, err := os.Create(filename)
 	if err != nil {
 		panic(err)
@@ -113,7 +113,7 @@ func RecoverLocalKey(filename, password, privateKey string) *secp256k1.PrivateKe
 		filename = GetDefaultFile()
 	}
 
-	// save key to ngcore.key file
+	// save key to ngbizy file
 	file, err := os.Create(filename)
 	if err != nil {
 		panic(err)

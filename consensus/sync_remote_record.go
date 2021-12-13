@@ -8,7 +8,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	"go.uber.org/atomic"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 type RemoteRecord struct {

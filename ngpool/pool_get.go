@@ -3,7 +3,7 @@ package ngpool
 import (
 	"sort"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // GetPack will gives a sorted TxTire.

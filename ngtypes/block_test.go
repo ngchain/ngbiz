@@ -7,8 +7,8 @@ import (
 	"github.com/c0mm4nd/rlp"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ngchain/ngcore/ngtypes"
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/ngtypes"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 func TestPowHash(t *testing.T) {

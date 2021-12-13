@@ -6,8 +6,8 @@ import (
 	core "github.com/libp2p/go-libp2p-core"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/ngp2p/wired"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngp2p/wired"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // GetRemoteStatus just get the remote status from remote, and then put it into sync.store.

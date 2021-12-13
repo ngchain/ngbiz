@@ -7,9 +7,9 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/ngblocks"
-	"github.com/ngchain/ngcore/ngstate"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngblocks"
+	"github.com/ngchain/ngbiz/ngstate"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // CheckBlock checks block before putting into chain.

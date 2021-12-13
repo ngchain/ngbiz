@@ -8,7 +8,7 @@ defaults:
 
 jobs:
   build:
-    name: Build ngcore
+    name: Build ngbiz
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -47,26 +47,26 @@ jobs:
           upcase=$(echo ${{ matrix.target }} | awk '{ print toupper($0) }' | sed 's/-/_/g')
         if: matrix.target != '' && matrix.os == 'ubuntu-latest'
 
-      - name: Analysis ngcore
+      - name: Analysis ngbiz
         run: go vet ./...
 
-      - name: Test ngcore
+      - name: Test ngbiz
         run: go test -p 1 ./...
 
-      - name: Build ngcore
-        run: go build ./cmd/ngcore
+      - name: Build ngbiz
+        run: go build ./cmd/ngbiz
 
 
       # ... and now perform some goop to move all the relevant artifacts into
       # something that we'll upload from this action.
       - run: mkdir dist
 
-      # Move `ngcore` or `ngcore.exe` to dist folder
-      - run: cp ngcore* dist
+      # Move `ngbiz` or `ngbiz.exe` to dist folder
+      - run: cp ngbiz* dist
 
       - uses: actions/upload-artifact@v1
         with:
-          name: ngcore-${{ matrix.build }}
+          name: ngbiz-${{ matrix.build }}
           path: dist
 
   # Consumes all published artifacts from all the previous build steps, creates
@@ -83,19 +83,19 @@ jobs:
       - name: Download x86_64 macOS binaries
         uses: actions/download-artifact@v1
         with:
-          name: ngcore-x86_64-macos
+          name: ngbiz-x86_64-macos
       - name: Download x86_64 Linux binaries
         uses: actions/download-artifact@v1
         with:
-          name: ngcore-x86_64-linux
+          name: ngbiz-x86_64-linux
       - name: Download AArch64 Linux binaries
         uses: actions/download-artifact@v1
         with:
-          name: ngcore-aarch64-linux
+          name: ngbiz-aarch64-linux
       - name: Download x86_64 Windows MinGW binaries
         uses: actions/download-artifact@v1
         with:
-          name: ngcore-x86_64-windows
+          name: ngbiz-x86_64-windows
 
       # Assemble all the build artifacts into tarballs and zip archives.
       - name: Assemble tarballs

@@ -1,4 +1,4 @@
-<h1> <img src="./resources/ng_16x16.png" >core</h1>
+<h1> <img src="./resources/ng_16x16.png" >biz</h1>
 
 ## What is ngchain?
 
@@ -16,11 +16,11 @@ scalable and powerful on the node's operational capacity and p2p network's speed
 
 ## Status
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/ngchain/ngcore)](
-https://goreportcard.com/report/github.com/ngchain/ngcore)
-![CI](https://github.com/ngchain/ngcore/workflows/CI/badge.svg)
-![GitHub](https://img.shields.io/github/license/ngchain/ngcore)
-![GitHub last commit](https://img.shields.io/github/last-commit/ngchain/ngcore)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ngchain/ngbiz)](
+https://goreportcard.com/report/github.com/ngchain/ngbiz)
+![CI](https://github.com/ngchain/ngbiz/workflows/CI/badge.svg)
+![GitHub](https://img.shields.io/github/license/ngchain/ngbiz)
+![GitHub last commit](https://img.shields.io/github/last-commit/ngchain/ngbiz)
 
 ## Features
 
@@ -49,16 +49,16 @@ go version >= 1.17
 ```bash
 # go will automatically sync the dependencies
 # GCC is required because of high performance db & vm
-go build ./cmd/ngcore
+go build ./cmd/ngbiz
 ```
 
 ## Usage
 
 ```bash
 # dircetly run the binary
-export GOLOG_FILE=ngcore.log # disable stderr output and write to the ngcore.log file
+export GOLOG_FILE=ngbiz.log # disable stderr output and write to the ngbiz.log file
 export GOLOG_LOG_LEVEL=debug # print more logs
-./ngcore
+./ngbiz
 
 # ngwallet is a rpc client in dart for ngin's daemon, see https://github.com/ngchain/ngwallet-dart
 ./ngwallet register 10086
@@ -69,35 +69,35 @@ export GOLOG_LOG_LEVEL=debug # print more logs
 If you wanna start mining(proof of work), try `--mining <Thread Num>` flag
 
 ```bash
-./ngcore --mining 0 # zero means using all available cores
+./ngbiz --mining 0 # zero means using all available cores
 ```
 
 You can view more flags and options with `--help` flag
 
 ```bash
-./ngcore --help
+./ngbiz --help
 ```
 
 Or you can choose to run in a docker
 
 ```bash
-git clone https://github.com/ngchain/ngcore && cd ngcore
-sudo docker build . -t ngcore
+git clone https://github.com/ngchain/ngbiz && cd ngbiz
+sudo docker build . -t ngbiz
 
 # Run as a bootstrap node
-sudo docker run -p 52520:52520 -p 52521:52521 -v .:/workspace -v ~/.ngkeys:~/.ngkeys ngcore --bootstrap true
+sudo docker run -p 52520:52520 -p 52521:52521 -v .:/workspace -v ~/.ngkeys:~/.ngkeys ngbiz --bootstrap true
 
 # Run as a mining node, 0 means using all cpu cores, --in-mem will disable writing into disk and make the miner lighter
-sudo docker run -p 52520:52520 -p 52521:52521 -v .:/workspace -v ~/.ngkeys:~/.ngkeys ngcore --mining 0 --in-mem
+sudo docker run -p 52520:52520 -p 52521:52521 -v .:/workspace -v ~/.ngkeys:~/.ngkeys ngbiz --mining 0 --in-mem
 ```
 
 ## Run a ngchain forknet
 
-It's so easy to run an independent PoW chain on ngCore codebase.
+It's so easy to run an independent PoW chain on ngbiz codebase.
 
 1. Modify the `GenesisAddressBase58` in `./ngtypes/defaults.go` and `protocolVersion` in `./ngp2p/defaults/defaults.go`
 
-2. Generate a new signature for genesis generate tx, and genesis block's nonce (with `ngcore gentools` toolset)
+2. Generate a new signature for genesis generate tx, and genesis block's nonce (with `ngbiz gentools` toolset)
 
 3. Run more than 2 bootstrap node with `--bootstrap` flag (without mining)
 

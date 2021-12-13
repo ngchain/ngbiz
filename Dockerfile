@@ -14,9 +14,9 @@ RUN GOPROXY=$GOPROXY make build
 # MAIN
 FROM ubuntu:latest
 
-COPY --from=builder /build/ngcore /usr/local/bin/
+COPY --from=builder /build/ngbiz /usr/local/bin/
 
 WORKDIR /workspace
 
 EXPOSE 52520 52521
-ENTRYPOINT ["ngcore"]
+ENTRYPOINT ["ngbiz"]

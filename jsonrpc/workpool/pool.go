@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 type WorkPool struct {

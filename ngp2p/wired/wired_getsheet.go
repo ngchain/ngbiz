@@ -5,7 +5,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/ngchain/ngcore/ngstate"
+	"github.com/ngchain/ngbiz/ngstate"
 	"github.com/pkg/errors"
 )
 

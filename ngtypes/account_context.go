@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"sync"
 
-	"github.com/ngchain/ngcore/utils"
+	"github.com/ngchain/ngbiz/utils"
 )
 
 // AccountContext is the Context field of the Account, which

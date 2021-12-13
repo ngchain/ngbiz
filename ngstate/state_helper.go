@@ -7,7 +7,7 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/pkg/errors"
 
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 func getAccountByNum(txn *badger.Txn, num ngtypes.AccountNum) (*ngtypes.Account, error) {

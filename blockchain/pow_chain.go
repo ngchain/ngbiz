@@ -3,8 +3,8 @@ package blockchain
 import (
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/ngchain/ngcore/ngblocks"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngblocks"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 // ApplyBlock checks the block and then calls blockchain's PutNewBlock, and then auto-upgrade the state.

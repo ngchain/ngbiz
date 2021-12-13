@@ -7,8 +7,8 @@ import (
 	core "github.com/libp2p/go-libp2p-core"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 
-	"github.com/ngchain/ngcore/ngp2p/defaults"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngp2p/defaults"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 type Broadcast struct {

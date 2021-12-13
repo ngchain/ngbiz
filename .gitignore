@@ -42,4 +42,4 @@ env/*
 *.log
 
 #Binary
-/ngcore
+/ngbiz

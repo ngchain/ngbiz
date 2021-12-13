@@ -7,7 +7,7 @@ import (
 	"runtime"
 
 	"github.com/deroproject/astrobwt"
-	"github.com/ngchain/ngcore/ngtypes"
+	"github.com/ngchain/ngbiz/ngtypes"
 )
 
 func genBlockNonce(b *ngtypes.Block) {
