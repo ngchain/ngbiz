@@ -58,7 +58,7 @@ func TestNewRPCServer(t *testing.T) {
 
 	rpc := jsonrpc.NewServer(pow, jsonrpc.ServerConfig{
 		Host:                 "",
-		Port:                 52520,
+		Port:                 52521,
 		DisableP2PMethods:    false,
 		DisableMiningMethods: false,
 	})
